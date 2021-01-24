@@ -1,0 +1,49 @@
+body {
+  margin-top: 40px;
+  text-align: center;
+  background: -webkit-linear-gradient(to bottom, #371aa1, #2387f2);
+  background: linear-gradient(to bottom, #371aa1, #2387f2);
+  color: white;
+  font-size: 40px;
+}
+
+#scores {
+  display: inline-block;
+  font-size: 20px;
+  float: left;
+}
+
+#button {
+  height: 50px;
+  width: 200px;
+  border-radius: 25%;
+  cursor: pointer;
+  background-color: white;
+  font-size: inherit;
+  border-color: red;
+}
+
+#button:hover {
+}
+
+#header {
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: -50%;
+}
+
+#userGuess {
+  height: 100px;
+  width: 220px;
+  text-align: center;
+  font-size: inherit;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: -100px;
+}
+
+img {
+  height: 100px;
+  margin-top: 15px;
+}
