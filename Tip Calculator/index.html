@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <div id="app">
+        <h1>Tip Calculator</h1>
+        <form id="form">
+            <div class="form-row">
+            <label for="bill-amount">Bill Amount:</label>
+            <input type="text" placeholder="Amount" id="bill-amount-input">
+            </div>
+            <div class="form-row">
+                <label for="amount-of-people">Amount of People:</label>
+                <input type="text" placeholder="People" id="people-amount-input">
+            </div>
+            <div class="form-row">
+                <select name="quality" id="tip-percent">
+                    <option disabled selected value='' >Select Tip Amount</option>
+                    <option value=".10">Poor -- 10%</option>
+                    <option value=".15">Below Average -- 15%</option>
+                    <option value=".20">Average -- 20%</option>
+                    <option value=".25">Above Average -- 25%</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <button type="submit">Calculate!</button>
+            </div>
+        </form>
+        <div class="amount-display">
+            <p>$<span class="amount-per-person">0</span> Per Person</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
