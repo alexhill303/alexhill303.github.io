@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    text-align: center;
+  }
+  
+  #diceDiv {
+    margin: 25px;
+  }
+  
+  button {
+    height: 30px;
+    width: 75px;
+  }
+  
+  #userScoreDisplay {
+    font-size: 35px;
+    margin-top: 25px;
+  }
+  #scoreDisplay {
+    font-size: 35px;
+    margin-top: 25px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
