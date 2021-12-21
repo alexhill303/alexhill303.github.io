@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    text-align: center;
+  }
+  
+  .header {
+    font-size: 50px;
+  }
+  
+  #app {
+    margin-top: 20px;
+    font-size: 100px;
+  }
+  
+  .buttons button{
+    width: 75px;
+    height: 50px;
+  }
+  
+  .buttons button:hover {
+    cursor: pointer;
+  }
+  
+  #start:hover {
+    background-color: lime;
+  }
+  
+  #stop:hover {
+    background-color: lightblue;
+  }
+  
+  #reset:hover {
+    background-color: red;
+  }
