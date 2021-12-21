@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Issue Tracker</title>
+    <link rel="stylesheet" href="tracker.css" type="text/css" />
+  </head>
+  <body>
+    <h1 class="title">Issue Tracker <small>by Alex Hill</small></h1>
+    <div class="container">
+      <h3>Add An Issue</h3>
+
+      <form id="issueForm">
+        <label for="requester" class="requester">Requester:</label>
+        <input type="text" id="requesterInput" placeholder="Enter Name">
+        <label for="description" class="description">Description:</label>
+        <br />
+        <textarea
+          type="text"
+          id="descriptionInput"
+          placeholder="Describe Issue..."
+        ></textarea>
+        <br />
+        <label for="severity">Severity:</label><br />
+        <select name="severitySelector" id="severitySelector">
+          <option value="low">Low</option>
+          <option value="medium">Medium</option>
+          <option value="high">High</option></select
+        ><br />
+        <label for="assignment">Assigned To: </label><br />
+        <select name="assignmentSelector" id="assignmentSelector">
+          <option value="" disabled selected>Select</option>
+          <option value="Alex">Alex</option>
+          <option value="Brady">Brady</option>
+          <option value="Emily">Emily</option>
+          <option value="Justin">Justin</option>
+          <option value="Gracie">Gracie</option>
+          <option value="Megan">Megan</option></select
+        ><br />
+        <button type="submit" id="submitButton" class="submitButton">
+          Add
+        </button>
+      </form>
+    </div>
+    <div class="ListDiv">
+      <ul id="issuesList"></ul>
+    </div>
+    <script src="tracker.js"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    text-align: center;
+  }
+  
+  .title {
+    margin-bottom: 10vh;
+  }
+  
+  small {
+    color: lightgray;
+  }
+  
+  .container {
+    margin: auto;
+    background-color: lightgrey;
+    width: 75vw;
+    height: 40vh;
+    border: 1px solid white;
+    border-radius: 15px;
+  }
+  
+  
+  
+  .description {
+    float: left;
+  }
+  
+  button {
+    height: 7vh;
+    width: 75vw;
+    background-color: rgb(159, 202, 159);
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    border-radius: 0px 0px 15px 15px;
+  }
+  
+  button:hover {
+    background-color: rgb(10, 102, 10);
+  }
+  
+  select {
+    margin-bottom: 10px;
+    height: 5vh;
+    width: 10vw;
+  }
+  
+  textarea {
+    height: 20vh;
+    width: 40vw;
+    float: left;
+  }
+  
+  #issuesList {
+    padding-top: 50px;
+    padding-left: 15px;
+  }
+  
+  .listStyle {
+    border: 1px solid black;
+    background-color: rgb(241, 206, 139);
+  }
+  
